@@ -1,0 +1,2273 @@
+@charset "utf-8";
+
+body {
+	-webkit-text-size-adjust: 100%;
+}
+.btn-link {
+    font-weight: 400;
+    color:#9acd32;
+    background-color: transparent;
+}
+
+.fc_show_box{
+	color:#f5f5f5;
+	margin-left: 30px;
+}
+
+.apexcharts-yaxis-label {
+	color: white !important;
+}
+
+.text-muted{
+
+	color:#f5f5f5;
+
+}
+.serch_fc {
+	width: 500px;
+	margin: auto;
+
+	/* 	height:320px; */
+}
+
+.table_1 {
+	width: 100%;
+	margin: auto;
+}
+
+.model_year {
+    color: white;
+    width: 40%;
+    padding: 0px;
+    font-size: 14px;
+    /* padding-left: 20px; */
+    text-align: center;
+    position: relative;
+    top: 10px;
+
+}
+
+.green_round_btn {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0;
+	appearance: none;
+	background-color: rgba(22, 222, 21, 0.3);
+	width: 75%;
+	border-radius: 50px;
+	color: white;
+	text-align: center;
+	margin: auto;
+	box-shadow: 0px -2px #778899;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	padding: 3px;
+	display: block;
+}
+
+.privacypolicy {
+	font-size: 16px;
+}
+
+select {
+	-webkit-appearance: button;
+	appearance: button;
+}
+
+.country_name {
+	color: white;
+	border-bottom: solid 1px white;
+}
+
+.input_fc_change {
+	border-radius: 15px !important;
+	font-size: 13px;
+	background-color: forestgreen;
+	color: white;
+	margin-left: -60px;
+	margin-bottom: 5px;
+	margin-top: 2px;
+	font-family: unset;
+	padding: 5px;
+}
+
+Chrome、Safari
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+//
+Firefox、IE
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+input[type="submit"], input[type="button"] {
+	border-radius: 0;
+	-webkit-box-sizing: content-box;
+	-webkit-appearance: button;
+	appearance: button;
+	border: none;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+input[type="submit"]::-webkit-search-decoration, input[type="button"]::-webkit-search-decoration
+	{
+	display: none;
+}
+
+input[type="submit"]::focus, input[type="button"]::focus {
+	outline-offset: -2px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #fff;
+	border-left: solid 1px #ececec;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ccc;
+	border-radius: 10px;
+	box-shadow: inset 0 0 0 2px #fff;
+}
+
+input[type=date]::-webkit-inner-spin-button, input[type=time]::-webkit-inner-spin-button
+	{
+	-webkit-appearance: none;
+}
+
+/* スピンボタン（上下ボタン）を非表示 */
+input[type=date]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+/* 無入力時の 年/月/日 を / / にする */
+input
+[
+type
+=
+date
+]
+:
+:-webkit-datetime-edit-year-field
+:not
+
+(
+[
+aria-valuenow
+]
+
+
+),
+input
+[
+type
+=
+date
+]
+:
+:-webkit-datetime-edit-month-field
+:not
+
+(
+[
+aria-valuenow
+]
+
+
+),
+input
+[
+type
+=
+date
+]
+:
+:-webkit-datetime-edit-day-field
+:not
+
+(
+[
+aria-valuenow
+]
+
+
+)
+{
+color
+:
+
+transparent
+;
+
+
+}
+/* /の色を変える */
+input[type=date]::-webkit-datetime-edit-text {
+	color: #666;
+}
+/* clearボタンの非表示 */
+input[type=date]::-webkit-clear-button {
+	-webkit-appearance: none;
+}
+/* カレンダーのインジケータ（▼）を非表示 */
+input[type=date]::-webkit-calendar-picker-indicator {
+	color: transparent;
+	position: relative;
+}
+
+input, button, textarea, select {
+	/*     -webkit-appearance: none; */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.accept {
+	width: 100px;
+	padding: 10px;
+	background-color: rgba(5, 109, 21, 0.69);
+	border-radius: 15px;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.delete_btn {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 40px;
+	background-color: rgba(5, 109, 21, 0.69);
+	color: white;
+}
+
+.bike_name_his {
+	color: white;
+	/* 		border:solid 1px white; */
+	font: caption;
+	background-color: rgba(5, 109, 21, 0.69);
+}
+
+.quit_text {
+	color: white;
+	text-align: left;
+	padding: 5px;
+}
+
+.p_reset_text {
+	color: #ffff;
+	width: 87%;
+	margin: auto;
+}
+
+#model_year {
+	text-align: -webkit-match-parent;
+	background-color: rgba(22, 222, 21, 0.3);
+	color: white;
+	padding-left: 32px;
+}
+
+#model_year:focus {
+	border-shadow: 1px;
+}
+
+#year_select {
+	text-align: center;
+}
+
+.l_text {
+	text-align: left;
+	padding-top: 25px;
+	border-bottom: solid 1px #ffff;
+	width: 87%;
+	margin-left: 15px;
+	color: #ffff;
+}
+
+.birthday {
+	-webkit-appearance: none;
+	border-radius: 10px;
+	text-align: right;
+	border: none;
+	background-color: #f2f2f2;
+	color: gray;
+	-webkit-border-radius: 10px;
+	-webkit-text-align: right;
+	-webkit-border: none;
+	-webkit-background-color: #f2f2f2;
+}
+
+.birthday_label:after {
+	content: "";
+	position: relative;
+	bottom: -18px;
+	right: 37px;
+	border-top: 14px solid gray;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	z-index: 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+	padding: 0;
+	width: 36px;
+	height: 36px;
+	background: rgba(0, 0, 0, 0.01);
+	color: transparent;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.gas {
+	position: relative;
+	left: 66px;
+}
+
+#c_uphot {
+	/* margin: 5px; */
+
+}
+
+#c_uphot_td {
+	height: 400px;
+}
+
+.more_fc {
+	margin-bottom: 25px;
+}
+
+#fc_block {
+	margin-bottom: 25px;
+}
+
+#please_fc_regist {
+	margin: auto;
+	text-align: center;
+	border-bottom: solid 1px white;
+	color: white;
+	width: 82%;
+	font-size: 19px;
+}
+
+/* 検索ボックス表示 ｃｓｓ*/
+#search_box {
+	border: 0;
+	padding: 10px;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	color: #173B0B;
+	/* border:solid 1px #ccc; */
+	width: 100%;
+	border-radius: 10px;
+}
+
+#search_box:focus {
+	border-radius: 10px;
+}
+
+.search_box_td {
+	margin: auto;
+	text-align: center;
+	width: 500px;
+	background-color: #f5f5f5;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+
+.result_fc_regist_find_maker {
+	text-align: left;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border-bottom: solid 1px;
+	position: relative;
+	top: 5px;
+}
+
+.bike_name_block {
+	width: 100%;
+}
+
+#alert {
+	color: #ffff;
+	margin: auto;
+	text-align: center;
+	font: 15px;
+}
+
+.search_box_td:focus {
+	border-radius: 10px;
+	border: 0px;
+}
+
+.find_top {
+	padding: 0px !important;
+	top: 0px !important;
+}
+
+#tbl_result {
+	font-size: 16px;
+	margin: auto;
+	width: 75%;
+}
+
+#tbl_result tr {
+	font-size: 16px;
+}
+
+.result_a_block {
+	width: 85%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #ffff;
+	border-bottom: solid 2px rgba(17, 12, 9, 0.6);
+	opacity: 1;
+	background-color: rgba(17, 140, 5, 0.8);
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;
+}
+
+}
+.border {
+	border-bottom: solid;
+}
+
+.result_fc_regist {
+	text-decoration: none;
+	color: #ffff;
+	text-align: -webkit-auto;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.result_fc_regist_find {
+	display: block;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#eMEssage {
+	font-size: 14px;
+	color: red;
+	margin: auto;
+	text-align: center;
+}
+
+.eMEssage {
+	font-size: 12px;
+	color: red;
+	margin: auto;
+	text-align: center;
+}
+
+.ok {
+	color: RGB(0, 255, 51);
+	border-radius: 22px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#MEssage {
+	font-size: 14px;
+	margin: auto;
+	text-align: center;
+}
+
+.iziModal {
+	width: 85%;
+}
+
+.regist_fc_in_fc_show {
+	margin-bottom: 10px;
+}
+
+.result_fc_regist:hover {
+	opacity: 0.5;
+}
+
+#result_child {
+
+}
+
+#result_child td {
+
+}
+
+.regist_fc_in_fc_show {
+	width: 100%;
+}
+
+.regist_fc_in_fc_show .btn_submit {
+	background-color: #008000;
+	border-radius: 2px;
+	border-bottom: solid 2px #006400;
+	border-right: solid 2px #006400;
+}
+
+#toast-container {
+	/* 	background-color: #009933 !important; */
+
+}
+
+#toast-container.toast-bottom-full-width>div, #toast-container.toast-top-full-width>div
+	{
+	/* 	background-color: #009933 !important; */
+
+}
+
+#toast-container>div {
+	opacity: 1 !important;
+}
+
+.input_table tr {
+	margin: auto;
+}
+
+.result_fc_findf {
+	border-bottom: solid 1px #ffff;
+	color: #ffff;
+	width: 45%;
+	margin: auto;
+	margin-bottom: 14px;
+}
+
+.fc_search_block {
+	width: 60%;
+	margin: auto;
+}
+
+#s_result {
+	margin: auto;
+	border-radius: 5px;
+	border: solid 1px #ffff;
+	width: 101%;
+	padding: 10px;
+	position: relative;
+	top: -10px;
+	background-color: #F5F6F0;
+	height: 40%;
+	overflow: scroll;
+}
+
+.fc_like {
+	color: #ffff;
+	background-color: #009933;
+	border: solid 1px #ffff !important;
+	border-bottom: solid 2px #CCCCCC !important;
+	border-radius: 0.3em !important;
+	padding: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: block;
+	text-align: left;
+	font-size: 13px;
+}
+
+.attention {
+	/*     display: block; */
+	position: relative;
+	top: -7px;
+	width: 80%;
+	margin: auto;
+}
+
+.attention_text {
+	color: red;
+	border-bottom: solid 1px red;
+	font-size: 14.5px;
+}
+
+.btn_fc_ergist {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.btn_fc_ergist td {
+	height: 10px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	top: -20px;
+	left: 45px;
+}
+
+.btn_long a {
+	width: 250px !important;
+	margin-bottom: 10px !important;
+}
+
+.fc_show_comment {
+	width: 500px;
+	height: 8%;
+}
+
+.coment_block {
+	position: relative;
+	/* top:-95px; */
+	text-align: left;
+	margin-top: 0px;
+	margin-left: 7px;
+	color: white;
+}
+
+.btn_fc_ergist_td {
+	position: relative;
+	top: 10px;
+	left: 45px;
+}
+
+img {
+	max-width: 100%;
+	/* This rule is very important, please do not ignore this! */
+}
+
+#img {
+	width: 100%;
+	height: 320px;
+	margin: auto;
+}
+
+.pre-Uphot {
+	/* 	width:300px;
+	height: 300px; */
+
+}
+
+.UphotImg {
+	width: 100%;
+
+	/* 	height:320px; */
+}
+
+.preview {
+	overflow: hidden;
+	/* 	width: 200px;
+	height: 200px; */
+}
+
+#canvas {
+	width: 100%;
+	cursor: default;
+	/* 	border: 1px solid black; */
+	padding-top: 60px;
+}
+
+.uphot_p {
+	margin: auto;
+}
+
+.imgInputBox {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+#cropperWrapper {
+	width: 100%;
+}
+
+#croppeWrapper:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.cropperContent {
+	float: left;
+	margin: 10px;
+	display: none;
+}
+
+#cropperFile {
+	width: 100%;
+}
+
+#cropperPreview {
+	text-align: center;
+	overflow: hidden;
+}
+
+#cropperPreview, #cropperPreview img {
+	width: 100%;
+	height: 100%;
+}
+
+#cropperCanvas {
+	width: 100%;
+}
+
+<
+style>form img.thumb {
+	margin: 0 5px 5px 0;
+	max-width: 160px;
+	vertical-align: bottom;
+}
+
+form .upload label {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	vertical-align: middle;
+}
+
+form .upload label input[type="file"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+	font-size: 100px;
+	opacity: 0.01;
+	-ms-filter: "alpha(opacity=1)";
+}
+
+form .upload label input[type="file"]:hover+.button {
+
+}
+
+form .upload .alt {
+	padding: 4px;
+	border: 1px solid #999;
+	vertical-align: middle;
+}
+
+</
+style> /* //コメント入力欄 */ textarea {
+
+}
+
+.noimg {
+	margin: auto;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.phot_input {
+	margin: auto;
+}
+
+.input_fc {
+	color: #ffffff;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.input_fc_fc {
+	color: #ffffff;
+	margin-left: 40px;
+}
+
+.city {
+	position: relative;
+	left: -94px;
+}
+
+.high_way {
+	position: relative;
+	left: 97px;
+}
+
+#crop-img {
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgba(5, 109, 21, 0.69);
+	width: 100%;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+}
+
+#re-crop-img {
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgba(5, 109, 21, 0.69);
+	width: 100%;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+.is-hide {
+	display: none;
+}
+
+.p-crop-img {
+	margin: auto;
+}
+
+.crop-Uphot {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	/*     margin-bottom: 15px; */
+}
+
+.cropper-container {
+	/* width:300px !important;
+margin:auto; */
+
+}
+
+.Ubike_label {
+	border-radius: 5px;
+	background-color: rgba(5, 109, 21, 0.69);
+	color: #fff;
+	width: 100%;
+	height: 55px;
+	margin: auto;
+	margin-top: 15px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.ImgTitle {
+	text-align: center;
+	display: inline-block;
+	margin: 13px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+.imgInput {
+	text-align: center;
+	margin: auto;
+}
+
+.fc-input-title {
+	font-size: 24px;
+}
+
+.Ubike_label input {
+	display: none;
+}
+
+/* 会員登録ボタン調性 */
+.regist_btn {
+	marigin-top: 10px
+}
+
+.input_birthday_list {
+	text-align: center;
+}
+
+.birthday_list {
+	text-align: center;
+}
+
+/* ログイン画面で使用されています */
+/* .input_link_td{
+height:10px;
+}
+
+.btn_index{
+height:10px;
+}
+
+.input{
+height: 10px;
+} */
+input_table>tr {
+	height: 10px;
+}
+
+.imgView_block {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.fc_regist_form {
+	margin-bottom: 144px;
+}
+
+.btn_index4 {
+	width: 100%;
+}
+
+/* ログイン画面で使用されています */
+/*情報登録完了テーブル設定  */
+.input_complete {
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+.compleat_table {
+	margin: auto;
+	text-align: center;
+}
+
+.compleat_block {
+	display: block;
+	position: relative;
+	top: 100px;
+	margin: auto;
+}
+
+.input_check_btn {
+	position: relative;
+	top: 0px;
+	/* 	padding:20px; */
+}
+
+.input_check {
+	background-color: rgba(22, 222, 21, 0.3);
+	width: 75%;
+	border-radius: 50px;
+}
+
+.regist_input_next_btn {
+	margin-top: 53px !important;
+}
+
+.gender {
+	margin: auto !important;
+	text-align: center;
+	width: 95%;
+	padding-left: 9px;
+}
+
+.fuel_radio {
+	margin: auto !important;
+	text-align: center;
+}
+
+.user-info-bar {
+	/*	margin:2px; */
+	padding: 5px;
+	padding-right: 150px;
+	background-color: rgba(5, 109, 21, 0.69);
+	position: fixed;
+	top: 56px;
+	left: -1px;
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	color: #ffffff;
+	z-index: 1;
+}
+
+.user-name {
+	margin: 5px;
+	padding-right: 15px;
+}
+
+/*--------------全体設定---------------------------*/
+h1 {
+	font-size: 20px;
+}
+
+h2 {
+
+}
+
+* {
+	font-family: 'Noto Serif JP', sans-serif;
+}
+
+body {
+	background-color: #505050;
+	font-family: 'Noto Serif JP', sans-serif;
+	z-index: -10;
+	padding: 0;
+	margin: 0;
+}
+
+.copyRight {
+	text-align: center;
+	margin: auto;
+	/*     	margin-top:20px; */
+	margin-top: 0px;
+	color: white;
+}
+
+.privacy-policy {
+	text-align: center;
+	color: white;
+}
+
+/* -----------------燃費登録 画面-----------------------------------*/
+.fc_table {
+	padding-top: 10px;
+}
+
+.input-fc-num {
+	width: 120px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.fc-slider-block {
+	margin-top: 0px;
+}
+
+.fc-slider {
+	margin-top: 100px;
+}
+
+/* レンジボタンのcss */
+input[type="range"].fc-slider {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #ffffff;
+	border: 0;
+	height: 5px;
+	margin: 3px 0;
+	box-shadow: 1px 1px 0px #ffffff;
+	width: 200px;
+	margin-bottom: 20px;
+}
+
+input[type="range"].fc-slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-color: #14D04F;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+	cursor: pointer;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="range"].fc-slider::-webkit-slider-thumb:before {
+	content: "";
+	display: inline-block;
+	background-color: #14D04F;
+	width: 10px;
+	height: 10px;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	margin: 4px auto 0;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+input[type="range"].fc-slider::-webkit-slider-thumb:hover {
+	background-color: #14D04F;
+}
+
+input[type="range"].fc-slider:active::-webkit-slider-thumb {
+	background-color: #14D04F;
+}
+
+input[type="range"].fc-slider:active::-webkit-slider-thumb:before {
+	background-color: #14D04F;
+}
+
+input[type="range"].fc-slider:focus {
+	background-color: #ffffff;
+	outline: none;
+}
+
+.inputComment {
+	width: 93%;
+	height: 135px;
+	border-radius: 5px;
+	resize: none;
+	font-size: 18px;
+}
+
+.fc-val {
+	font-size: 20px;
+	color: #14D04F;
+}
+
+.fc_input_block {
+	margin-top: 10px;
+	width: 100%;
+	color: #fff;
+	width: 100%;
+}
+
+.slash {
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.fc_input_title {
+	margin-left: 10px;
+}
+
+input {
+	font-size: 20px;
+}
+
+.regist_comp {
+	width: 100%;
+	height: 200px;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	margin: auto;
+	padding-bottom: 250px;
+	position: relative;
+	top: 200px;
+}
+
+.serch_regist_comp {
+	text-align: center;
+	position: relative;
+	top: 100px;
+	padding-bottom: 50px;
+}
+
+/*------------------------Login-------------------------------*/
+.modal_con {
+
+}
+
+.input_text_block {
+	margin: auto;
+	text-align: center;
+}
+
+.input_text_p {
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: solid 1px;
+}
+
+.input_text_p2 {
+	margin-left: 10px;
+	text-align: center;
+}
+
+.PageTitle_login {
+	text-align: left;
+	font-size: 30px;
+	padding-left: 30px;
+	padding-top: 50px;
+	color: #ffffff;
+}
+
+.PageTitle1 {
+	text-align: center;
+	font-size: 45px;
+	margin: auto;
+	padding-top: 100px;
+	color: #ffffff;
+}
+
+.PageTitle2 {
+	text-align: center;
+	font-size: 45px;
+	margin: auto;
+	padding-left: 150px;
+	color: #ffffff;
+}
+
+/*-------------------------------------------------------*/
+.catchcopyBlock .catchcopy {
+	font-size: 20px;
+	text-align: left;
+	margin: auto;
+	color: #ffffff;
+	display: inline-block;
+}
+
+.catchcopyBlock .Nenpi {
+	font-size: 20px;
+	margin: auto;
+	color: #ff3333;
+}
+
+div.catchcopyBlock {
+	text-align: center;
+	/*    background-color: #710717;*/
+	position: relative;
+	top: 150px;
+	left: -60px;
+}
+
+/*-------------------------------------------------------*/
+p.logoImgBlock {
+	text-align: center;
+	margin: auto;
+	/*    padding-left: 400px;*/
+	position: relative;
+	top: -120px;
+	left: 230px;
+	width: 440px;
+}
+
+.logoImg {
+	max-width: 150% !important;
+}
+
+/*-------------------------ログイン。会員登録。入力項目のテーブルCSS------------------------------*/
+.btn_submit {
+	position: relative;
+	top: 0px;
+}
+
+.input {
+	position: relative;
+	/*    bottom: -100px;*/
+	height: 100px;
+}
+
+.title_table {
+	padding: 0px;
+}
+
+.tr_table {
+	height: 80px;
+}
+
+.input_table {
+	text-align: center;
+	margin: auto;
+	width: 400px;
+	padding-bottom: 20px;
+	/*    border-spacing: 50px 20px;*/
+	box-shadow: 2px 2px 3px 2px #6f6f6f inset;
+	position: relative;
+	top: 120px;
+}
+
+.input_table td {
+	text-align: center;
+	margin: auto;
+	/*    padding: 30px;*/
+	height: 10px;
+}
+
+.input_name {
+	color: #ffffff;
+	margin: auto;
+	font-weight: bold;
+}
+
+.input a {
+
+}
+/*-------------------パスワードを忘れた、新規登録の場所--------------*/
+.href_regist {
+	text-align: center;
+	margin: auto;
+	color: #ffffff;
+}
+
+.input_link {
+	color: #ffffff;
+	text-align: center;
+	margin: auto;
+	padding-top: 5px;
+}
+
+.space {
+	margin-bottom: 220px;
+}
+
+.input_text {
+	width: 80%;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+}
+/*--------------------------------燃費を探すのCSS---------------------*/
+.table_serch_fc {
+	margin: auto;
+	border-spacing: 20px;
+	padding: 50px;
+	position: relative;
+	top: -20px;
+}
+
+.table_serch_maker {
+	margin: auto;
+	border-spacing: 10px;
+	padding: 50px;
+	position: relative;
+	top: -20px;
+}
+
+/*---------------------燃費を探すボタンの設定-----------------*/
+.serch_maker {
+	text-align: center;
+	background-color: rgba(5, 109, 21, 0.69);
+	color: #ffffff;
+	align-items: center;
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size: 20px;
+	/*    下の値を入れるとブロック要素として認識されてサイズ等の変更が可能*/
+	display: block;
+	/*    ボタンのサイズを調整する*/
+	width: 165px;
+	height: 65px;
+	margin: auto;
+	padding: 0;
+	border: 3px solid rgba(5, 109, 21, 0.69) !important;
+	text-decoration: none;
+	clear: both;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border-radius: 10px !important;
+}
+/*ボタンの上にカーソルが合わさったとき*/
+.serch_make  r:hover {
+	text-decoration: none !important;
+	background-color: aliceblue !important;
+	color: rgba(5, 109, 21, 0.69) !important;
+}
+
+.table_serch_maker {
+	border-spacing: 15px 15px;
+}
+
+/*-------------------------------------------------------*/
+
+/*-------------------バイクごとの燃費表示ページ------------------*/
+.FC_show_table {
+	width: 280px;
+	height: 280px;
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	margin: 20px;
+	margin-left: 111px;
+	margin-right: 30px;
+	padding: 15px;
+	color: #ffff;
+	background-color: rgba(2, 128, 21, 0.69);
+	border-left: solid 6px #00ff1d;
+	font-weight: bold;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+	border-radius: 5px;
+}
+
+.table_FC_show_block {
+	margin: auto;
+}
+
+.table_FC_show_block tr {
+	margin: auto;
+}
+
+.most_F_show_td table {
+	margin: auto;
+}
+
+.FC_All_Show_block {
+	border-spacing: 10px;
+}
+
+.FC_All_Show_img {
+	height: 400px;
+}
+
+.fc_show_table2 {
+	text-align: center;
+	margin: auto;
+	width: 400px;
+	/* height: 86%; */
+	/* border-spacing: 50px 20px; */
+	box-shadow: 2px 2px 3px 2px #6f6f6f inset;
+	position: relative;
+	top: 120px;
+}
+
+.fst2 {
+	top: 0px;
+}
+
+.FC_All_show_table {
+	margin: auto;
+	padding: 5px;
+	color: #ffff;
+	border-spacing: 10px;
+	width: 50%;
+}
+
+.FC_All_Show_td_th {
+	width: 100px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background: rgba(5, 109, 21, 0.69);
+}
+
+.FC_Check_Show_td_th {
+	height: 50px;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	background: rgba(5, 109, 21, 0.69);
+}
+
+.FC_All_Show_td_th td {
+	text-align: left;
+}
+
+.FC_Check_Show_td_th td {
+	text-align: left;
+}
+
+.FC_All_Show_td_th th {
+	width: 100%;
+	text-align: center;
+}
+
+.FC_Check_Show_td_th th {
+	text-align: center;
+}
+
+.FC_All_Show_td_th p {
+	margin: 0px;
+}
+
+.FC_Check_Show_td_th p {
+	text-align: center;
+	color: #ffff;
+}
+
+.FC_Check_Show_td_th span {
+	text-align: center;
+	color: #ffff;
+}
+
+.FC_All_Show_td_th .const {
+	font-size: 18px;
+	color: rgba(189, 250, 255, 0.97);
+}
+
+.FC_Check_Show_td_th .const {
+	font-size: 18px;
+	color: rgba(189, 250, 255, 0.97);
+}
+
+.comentDate {
+	font-size: 10px;
+	color: #00ff62;
+}
+
+/*-----------------------利用規約部分----------------*/
+.input_name_check {
+	font-size: 15px;
+	color: #ffffff;
+}
+
+/*-----------------------生年月日リストの部分,セレクトボックスの記述------------------*/
+select {
+	background: none transparent;
+	font-size: inherit;
+	color: #000000;
+	-moz-appearance: button;
+	appearance: button;
+	width: 105px;
+	margin: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background: #bdc3c7;
+	border-radius: 4px;
+}
+
+select option {
+	background-color: #fff;
+	color: #333;
+}
+
+select::-ms-expand {
+
+}
+
+select:-moz-focusring {
+	color: transparent;
+	text-shadow: 0 0 0 #ffffff;
+}
+
+/*--------------------------------ラジオボタンのCSS---------------------*/
+.radio_input input {
+	display: none;
+}
+
+.radio_input label {
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 30%;
+	margin: auto;
+	padding: 12px 5px;
+	border-right: 1px solid #abb2b7;
+	background: #bdc3c7;
+	color: #555e64;
+	font-size: 14px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+}
+
+.radio_input label:first-of-type {
+	border-radius: 3px 0 0 3px;
+}
+
+.radio_input label:last-of-type {
+	border-right: 0px;
+	border-radius: 0 3px 3px 0;
+}
+
+.radio_input input[type="radio"]:checked+label {
+	background-color: rgba(5, 109, 21, 0.69);
+	color: #fff;
+}
+
+/*-------------------------------------------------------*/
+
+/*---------------------チェックボックスの設定---------------------*/
+input[type="checkbox"] {
+
+}
+
+.input_name_check {
+	width: 90%;
+	margin: 2em auto;
+	text-align: center;
+	margin: auto;
+}
+
+.input_name_check {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin: 2px 0 0;
+	padding: 10px 0;
+}
+
+.input_name_check label input[type='checkbox'] {
+	z-index: 1;
+	display: inline-block;
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	background: transparent;
+	background-color: #ffffff;
+	opacity: 0.5;
+	position: relative;
+	top: 5px;
+	right: 10px;
+}
+
+.input_name_check label input[type='checkbox']:checked {
+	background-color: rgba(5, 109, 21, 0.69);
+}
+
+.input_name_check input[type='checkbox']:checked+div span {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	display: inline-block;
+	visibility: visible;
+	clear: both;
+	margin: 0 0 0 20px;
+	padding: 2px 15px;
+	transition: transform 200ms ease;
+	transform: translateX(0px);
+	text-align: center;
+	white-space: nowrap;
+	color: #ffffff;
+	border-radius: 4px;
+	background-color: rgba(5, 109, 21, 0.69);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.input_name_check label div {
+	position: relative;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.input_name_check label div span {
+	position: absolute;
+	visibility: hidden;
+	transition: transform 200ms ease;
+	transform: translateX(-10px);
+}
+
+.input_name_check label:nth-of-type(1) input[type='checkbox']:checked+div span
+	{
+	background-color: rgba(5, 109, 21, 0.69);;
+}
+
+.input_name_check label:nth-of-type(1) input[type='checkbox']:checked+div span:before
+	{
+	border-top: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 8px solid rgba(5, 109, 21, 0.69);
+}
+
+input.d_rb5 {
+	background-color: aliceblue;
+}
+
+/*---------------------submitボタンの設定-----------------*/
+.btn_submit {
+	text-align: center;
+	background-color: rgba(5, 109, 21, 0.69);
+	color: #ffffff;
+	align-items: center;
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size: 20px;
+	/*    下の値を入れるとブロック要素として認識されてサイズ等の変更が可能*/
+	display: block;
+	/*    ボタンのサイズを調整する*/
+	width: 80%;
+	height: 40px;
+	margin: auto;
+	margin-top: 10px;
+	padding: 0;
+	/*    ボタンを丸くする*/
+	border-radius: 5px;
+	/*    ボタンに枠線をつける*/
+	border: 3px solid rgba(5, 109, 21, 0.69);
+	text-decoration: none;
+	clear: both;
+}
+/*ボタンの上にカーソルが合わさったとき*/
+.btn_submit:hover {
+	text-decoration: none;
+	background-color: aliceblue;
+	color: rgba(5, 109, 21, 0.69);
+}
+
+.btn_index2 {
+	position: relative;
+	top: -70px;
+}
+
+.btn_index1 {
+	position: relative;
+	top: 0px;
+}
+
+/*aタグボタンの設定*/
+.btn_index a {
+	text-align: center;
+	background-color: rgba(5, 109, 21, 0.69);
+	color: #ffffff;
+	align-items: center;
+	font-family: 'Noto Serif JP', sans-serif;
+	font-size: 20px;
+	/*    下の値を入れるとブロック要素として認識されてサイズ等の変更が可能*/
+	display: block;
+	/*    ボタンのサイズを調整する*/
+	width: 185px;
+	/*    margin: 1110px 1000px 100px 210px;*/
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/*    燃費を探すのボタンの背景色を中央に持ってきた。*/
+	/*    line-height: 50px;*/
+	/*    ボタンを丸くする*/
+	border-radius: 5px;
+	/*    ボタンに枠線をつける*/
+	border: 3px solid rgba(5, 109, 21, 0.69);
+	text-decoration: none;
+	clear: both;
+}
+/*ボタンの上にカーソルが合わさったとき*/
+.btn_index a:hover {
+	text-decoration: none;
+	background-color: aliceblue;
+	color: rgba(5, 109, 21, 0.69);
+}
+
+btn_index {
+	float: left;
+	height: 135px;
+	margin: auto;
+	padding-top: /*    flex-direction: row;*/
+}
+
+btn_index1 {
+
+}
+
+.btn_index_block {
+
+}
+
+.table_btn_index {
+	margin: auto;
+	position: static;
+	top: -100px;
+	border-spacing: 70px 0px;
+}
+
+#chart{
+max-width: 800px;
+    margin: auto
+}
+
+/*-------------------------------------------------------*/
+
+/*------------------------------スマホ/タブレット用の設定-----------------------------------
+------*/
+@media screen and (max-width: 1220px) {
+	.logoImg {
+		width: 120%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.logoImg {
+		margin-left: -65px;
+		margin-top: 25px;
+		margin-right: 0;
+		width: 100%;
+	}
+	p.logoImgBlock {
+		position: relative;
+		left: 134px;
+	}
+	.catchcopyBlock .catchcopy {
+		margin-left: -200px;
+		margin-bottom: 30px;
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	#s_result {
+		width: 95%;
+	}
+	.attention {
+		font-size: 2.5vw;
+	}
+	#please_fc_regist {
+		font-size: 2.5vw;
+	}
+	.btn_long {
+
+	}
+	.logoImg {
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0;
+		margin-bottom: 100px;
+		width: 90%;
+	}
+	p.logoImgBlock {
+		position: relative;
+		left: 73px;
+		top: -36px;
+	}
+	.catchcopyBlock .catchcopy {
+		font-size: 2.5vw;
+		position: relative;
+		left: 10px;
+	}
+}
+
+@media screen and (max-width: 860px) {
+	/*-------------------バイクごとの燃費表示ページ------------------*/
+	.iziModal {
+		width: 80% !important;
+	}
+	.search_box_td {
+		width: 100%;
+	}
+	.input_birthday_list {
+
+	}
+	.user-info-bar {
+		/*	margin:2px;
+		margin-right:102px; */
+		padding: 5px;
+		/* 	padding-right:500px; */
+		background-color: rgba(5, 109, 21, 0.69);
+		position: fixed;
+		top: 57px;
+		left: -1px;
+		width: 100%;
+		height: 30px;
+		text-align: right;
+		color: #ffffff;
+		z-index: 1;
+	}
+	.PageTitle_login {
+		text-align: left;
+		font-size: 5vw;
+		padding-left: 30px;
+		padding-top: 50px;
+		color: #ffffff;
+	}
+	.FC_show_table {
+		/* 		float: left;
+		width: 200px;
+		height: 200px;
+		font-size: 16px;
+		text-align: center;
+		padding: 15px;
+		color: #ffff;
+		background-color: rgba(5, 109, 21, 0.69);
+		border-left: solid 6px #00ff1d;
+		font-weight: bold;
+		box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+		border-radius: 5px; */
+		margin-left: 100px;
+		margin-right: 30px;
+	}
+	.FC_All_Show_block {
+		border-spacing: 10px;
+		margin: auto;
+	}
+	.FC_All_show_table {
+		width: 100%;
+		margin: auto;
+		padding: 5px;
+		color: #ffff;
+		border-spacing: 10px;
+	}
+	.FC_All_Show_td_th {
+		margin: 10px;
+		padding: 10px;
+		background: rgba(5, 109, 21, 0.69);
+	}
+	h2.title-top {
+		font-size: 3vw;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.fc_search_block {
+		width: 85%;
+	}
+	.result_fc_regist {
+		font-size: 3.5vw;
+	}
+	#search_box {
+		font-size: 16px;
+		height: 30px;
+	}
+	#tbl_result {
+		font-size: 2.5vw;
+		/* border: solid 1px #ffff; */
+		overflow: scroll;
+	}
+	.fc_show_table2 {
+		width: 99%;
+	}
+
+	/* 燃費表示画面のコメント欄CSS */
+	.coment_block {
+		/* top:-160px; */
+
+	}
+	.serch_fc {
+		width: 98%;
+	}
+	.fuel_radio {
+		margin-left: 41px !important;
+	}
+	.user-info-bar {
+		/*	margin:2px;
+		margin-right:102px; */
+		padding: 5px;
+		/* 	padding-right:500px; */
+		background-color: rgba(5, 109, 21, 0.69);
+		position: fixed;
+		top: 57px;
+		left: -1px;
+		width: 100%;
+		height: 30px;
+		text-align: right;
+		color: #ffffff;
+		z-index: 1;
+	}
+	.input {
+		font-size: 16px;
+		position: relative;
+		/*    bottom: -100px;*/
+		height: 50px;
+	}
+
+	/*
+    body{
+    font-size: 3.5vw
+    }
+*/
+	h2.title-top {
+		font-size: 4vw;
+	}
+	h2 {
+
+	}
+	h2.PageTitle1 {
+		font-size: 6.5vw;
+		text-align: center;
+		margin: auto;
+		padding-top: 92px;
+		padding-right: 50px;
+		color: #ffffff;
+	}
+	h2.PageTitle2 {
+		font-size: 6.5vw;
+		text-align: center;
+		margin: auto;
+		padding-left: 50px;
+		padding-bottom: 20px;
+		color: #ffffff;
+		/*
+        border-bottom:solid;
+        border-color:#ffffff;
+        border-width:1px;
+*/
+	}
+	h2.PageTitle {
+
+	}
+	.catchcopyBlock .catchcopy {
+		font-size: 4vw;
+		text-align: left;
+		margin: auto;
+		color: #ffffff;
+		display: inline-block;
+	}
+	.catchcopyBlock .Nenpi {
+		font-size: 4vw;
+		margin: auto;
+		color: #ff3333;
+	}
+	div.catchcopyBlock {
+		text-align: center;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	p.catchcopy {
+		font-size: 2vw;
+	}
+	.logoImg {
+		width: 80%;
+	}
+	p.logoImgBlock {
+		position: relative;
+		top: 0px;
+		left: 24px;
+		width: 90%;
+		height: 410px;
+		margin: 0;
+		margin-bottom: 0px;
+	}
+	.logoImg {
+		margin: 0;
+	}
+	.copyRight {
+		margin-top: 0px;
+		font-size: 3vw;
+	}
+
+	/*-----------------------------ボタン設定-------------------------------*/
+	.btn_index a {
+		margin: auto;
+		font-size: 4vw;
+		width: 25%;
+		height: 3%;
+		padding: 0;
+		padding: 4px;
+	}
+	.btn_index {
+		height: 10%;
+		width: 10%;
+		margin: auto;
+		padding-top: 0px;
+	}
+	.btn_index_block {
+
+	}
+	.btn_index a {
+		width: 55%;
+		font-size: 4vw;
+	}
+	.table_btn_index {
+    /* padding: 20px; */
+    position: relative;
+    top: 40px;
+    border-spacing: 0px 0px;
+     margin-bottom: 35px;
+	}
+	.btn_index2 {
+		position: relative;
+		top: -50px;
+	}
+	.btn_index1 {
+		position: relative;
+		top: 20px;
+	}
+	.btn_input1 {
+		top: -20px;
+		height: 50px;
+	}
+
+	/*-------------------ログイン。入力項目のテーブルCSS----------------------*/
+	.input_table {
+		width: 100%;
+		box-shadow: 2px 2px 3px 2px #6f6f6f inset;
+		position: relative;
+		top: 93px;
+		margin-bottom: 110px;
+	}
+	.input_table td {
+		text-align: center;
+		margin: auto;
+		/*    padding: 30px;*/
+	}
+	.input_name {
+		font-size: 16px;
+		color: #ffffff;
+	}
+	.space {
+		margin-bottom: 20px;
+	}
+	.input_text {
+		text-align: center;
+		margin: auto;
+		font-size: 50px;
+		width: 100% !important;
+		height: 45px;
+		font-size: 24px;
+		transform: scale(0.9);
+	}
+	input {
+
+	}
+	/* セレクトボックス   */
+	select {
+		width: 27%;
+		position: relative;
+		left: 0%;
+		font-size: 16px;
+	}
+
+	/*--------------------------------ラジオボタンのCSS---------------------*/
+	.radio_input input {
+		display: none;
+	}
+	.radio_input label {
+		width: 25%;
+		position: relative;
+		left: 7%;
+	}
+	.gas {
+		position: relative !important;
+		left: 111px !important;
+	}
+
+	/*
+.btn_submit{
+position:relative;
+    top: -100px;
+    }
+*/
+
+	/*-------------------------------------------------------*/
+
+	/*--------------------------登録完了画面-----------------------------*/
+	.regist_comp {
+		width: 98%;
+		height: 150px;
+		font-size: 6vw;
+		text-align: center;
+		color: #ffffff;
+		margin: auto;
+		padding-bottom: 0px;
+		position: relative;
+		top: 150px;
+	}
+	.serch_regist_comp {
+		text-align: center;
+		position: relative;
+		top: 100px;
+		/*        padding-bottom: 50px;*/
+	}
+
+	/*---------------------燃費を探すボタンの設定-----------------*/
+	.serch_fc {
+		margin: auto;
+	}
+
+	/*ボタンの上にカーソルが合わさったとき*/
+	.table_serch_maker {
+		width: 98%;
+		border-spacing: 0px 0px;
+		margin: 0;
+		padding: 0;
+	}
+	.serch_maker {
+		text-align: center;
+		background-color: rgba(5, 109, 21, 0.69);
+		color: #ffffff;
+		align-items: center;
+		font-family: 'Noto Serif JP', sans-serif;
+		font-size: 4vw;
+		/*    下の値を入れるとブロック要素として認識されてサイズ等の変更が可能*/
+		display: block;
+		/*    ボタンのサイズを調整する*/
+		width: 180px;
+		margin: auto;
+		padding: 0;
+		/*    ボタンを丸くする*/
+		border-radius: 5px;
+		/*    ボタンに枠線をつける*/
+		border: 3px solid rgba(5, 109, 21, 0.69);
+		text-decoration: none;
+		clear: both;
+	}
+	.search_maker_td {
+		width: 0;
+		margin: 0;
+		padding: 5px;
+	}
+
+	/*-------------------------------------------------------*/
+
+	/*-------------------バイクごとの燃費表示ページ------------------*/
+	.FC_show_table {
+		width: 135px;
+		height: 135px;
+		text-align: center;
+		font-size: 15px;
+		padding: 0px;
+		margin: 0px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.table_FC_show_block {
+		margin: auto;
+		text-align: center;
+	}
+	.FC_All_Show_block {
+		border-spacing: 0px;
+	}
+	.FC_All_Show_block p {
+		margin: 0px;
+	}
+	.FC_All_show_table {
+		border-spacing: 0px;
+		margin-top: 5px;
+		padding: 0px;
+		font-size: 4vw;
+		color: #ffff;
+		border-spacing: 2px;
+	}
+	.FC_All_Show_td_th {
+		margin: 5px;
+		padding: 5px;
+		background: rgba(5, 109, 21, 0.69);
+	}
+	/*--------------------------------燃費を探すのCSS---------------------*/
+	.table_serch_fc {
+		margin: auto;
+		border-spacing: 20px;
+		padding: 0px;
+		position: relative;
+		top: -20px;
+	}
+	.most_FC_show_td {
+		margin: auto;
+	}
+	.input_check_btn {
+		position: relative;
+		top: 0px;
+		/* 	padding:20px; */
+		height: 100px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	p.logoImgBlock {
+		height: 40%;
+	}
+	#please_fc_regist {
+		font-size: 3vw;
+	}
+	.gas {
+		position: relative !important;
+		left: 81px !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.model_year {
+    font-size: 11;
+    top: 7px;
+	}
+	p.logoImgBlock {
+		height: 35%;
+	}
+	.gendar_label {
+		font-size: 10px !important;
+	}
+}
+
+@media screen and (max-width: 433px) {
+	.fuel_radio {
+		margin-left: 0px !important;
+	}
+	.serch_maker {
+		width: 120px;
+	}
+
+	/* 		p.logoImgBlock {
+
+		height: 110px;
+
+	} */
+	p.logoImgBlock {
+		height: 45%;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.table_btn_index {
+		 margin-top: 60px;
+	 }
+	p.logoImgBlock {
+		height: 33%;
+	}
+}
+
+@media screen and (max-width: 376px) {
+		.table_btn_index {
+		 margin-top: 0px;
+	 }
+	.gas {
+		position: relative !important;
+		left: 55px !important;
+	}
+}
+
+@media screen and (max-width: 333px) {
+	p.logoImgBlock {
+		height: 25%;
+	}
+}

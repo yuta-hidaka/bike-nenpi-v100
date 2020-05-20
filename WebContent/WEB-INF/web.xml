@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <filter>
+    <filter-name>EncodeingFilter</filter-name>
+    <filter-class>bikeNenpi.Filter.EncodeingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodeingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+    <filter>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>bikeNenpi.Filter.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/contents/FcRegist/*</url-pattern>
+  </filter-mapping>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/contents/account/*</url-pattern>
+  </filter-mapping>
+
+  <error-page>
+    <error-code>500</error-code>
+    <location>/bikeNenpi/contents/contact/error500.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/bikeNenpi/contents/contact/error.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>405</error-code>
+    <location>/bikeNenpi/contents/contact/error405.jsp</location>
+  </error-page>
+  <servlet>
+    <description></description>
+    <display-name>TestAjax</display-name>
+    <servlet-name>TestAjax</servlet-name>
+    <servlet-class>bikeNenpi.Controller.Conn_FC_Find</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TestAjax</servlet-name>
+    <url-pattern>/TestAjax</url-pattern>
+  </servlet-mapping>
+
+</web-app>
